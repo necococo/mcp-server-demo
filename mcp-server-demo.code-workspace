@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	// ここではなくて"~/Library/Application Support/Code/User/settings.json"に書けばワークスペースに限らずMCPが使える
+	"settings": {
+		"mcp.servers": {
+			"mcp-demo-server": {
+			  "command": "uv",
+			  "args": ["--directory", "/Users/kj/mcp-server-demo", "run", "server.py"],
+			  "alwaysAllow": ["add"],
+			  "disabled": false,
+			}
+		  }
+	}
+}
+
